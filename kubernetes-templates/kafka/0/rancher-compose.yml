@@ -41,7 +41,7 @@
       description: "Broker log retention in hours"
       label: "Broker log retention (h):"
       required: true
-      default: "168"
+      default: 168
       type: "int"
     - variable: "kafka_num_partitions"
       description: "Number of broker partitions"
